@@ -1,0 +1,150 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.1)),url('taj5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1) );*/
+}
+
+nav{
+	width: 100%; height: 15vh;
+	color: wheat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.);
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+}
+
+nav .logo{
+	width: 25%;
+	text-align: center;
+
+
+
+}
+nav .menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+nav .menu a{
+	width: 25%;
+	text-decoration: none;
+	color: wheat;
+	background-color: linear-gradient(rgba(0, 0, 0, 0.5))
+	;
+
+}
+
+
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #EAE9E2;
+
+
+}
+
+section{
+}
+
+section h3{
+	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+	margin: 30px 0px 20px 0;
+	font-size: 50px;
+	font-weight: 600;
+	text-shadow: 2px 1px 5px black;
+	text-transform: uppercase;
+}
+
+
+
+section p{
+	font-size: 25px;
+	color: ;
+	word-spacing: 2.5px;
+	margin-bottom: 25px;
+
+}
+
+
+section a{
+	padding: 12px 30px;
+	border-radius: 5px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+}
+
+
+
+section .btnone{
+	background: wheat;
+	color: black;
+
+}
+.btnone:hover{
+	background: #00b894;
+	color: white;
+
+}
+
+
+section .btntwo{
+	background: #00b894;
+	color: white;
+}
+.btntwo:hover{
+    background: wheat;
+	color: black;
+	
+	
+	
+
+}
+
+
+.change_content:after{
+	content:'';
+	animation: changetext 5s infinite linear;
+	color: #00b894;
+
+
+
+
+}
+
+@keyframes changetext{
+    0%{content:"Agra"; color: aliceblue;}
+	20%{content: "Firozabad" ; color: blue;}
+	35%{content: "Delhi";color: red;}
+	80%{content: "Mumbai";color: black;}
+	100%{content: "kanpur" ; color: lightyellow ;}
+
+
+}
